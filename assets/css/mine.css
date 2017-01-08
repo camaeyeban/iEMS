@@ -1,0 +1,322 @@
+.page-header{
+	margin-left: 10% !important;
+}
+
+.row i{
+	color: rgb(56,159,77);
+}
+
+.formTitle{
+	color: rgb(56,159,77);
+}
+
+.msg{
+
+}
+
+.date{
+	width: 100% !important;
+}
+
+.lala{
+	margin: 0 auto;
+}
+
+.date1{	
+	color:black !important;
+	width: 38% !important;
+	font-size: 13px !important;
+	margin-left: 22.5% !important;
+}
+.cotime{
+	color:black !important;
+	width: 39% !important;
+	font-size: 13px !important;
+
+}
+.clients{
+	margin-left: -124px !important;
+	width: 280px!important;
+}
+.input_fields1{
+	color:black !important;
+	width: 195px !important;
+	font-size: 13px !important;
+	text-align: center;
+}
+.total{margin-left:13px!important;}
+.offset{margin-top:-100px!important;}
+.obdate{
+	margin-left: 75px !important;
+	width: 250px !important;
+}
+.obdate1{	
+	color:black !important;
+	width: 225px !important;
+	font-size: 13px !important;
+	margin-left: 203px !important;
+}
+.from{
+	padding-left: 0px !important;
+	width: 200px !important;
+	margin-left: 217px !important;
+}
+.from1{	
+	color:black !important;
+	width: 225px !important;
+	font-size: 13px !important;
+	margin-left: 217px !important;
+}
+.undertime1{	
+	color:black !important;
+	width: 225px !important;
+	font-size: 13px !important;
+	margin-left: 217px !important;
+}
+.to{
+	padding-left: 0px !important;
+	width: 200px !important;
+	margin-left: 20px !important;
+}
+.to1{	
+	color:black !important;
+	width: 225px !important;
+	font-size: 13px !important;
+	margin-left: 20px !important;
+}
+.client1{	
+	color:black !important;
+	width: 386px !important;
+	font-size: 13px !important;
+	margin-left: 97px !important;
+}
+.form_date{
+	padding-left: 0px !important;
+	width: 500px !important;
+	margin-left: 126px !important;
+}
+.form_date1{	
+	color:black !important;
+	width: 138px !important;
+	font-size: 13px !important;
+	margin-left: -4px !important;
+	margin-top: 5px !important;
+}
+.classification{
+	margin-left: -35% !important;
+	padding: 0% !important;
+}
+.classification1{
+	color:black !important;
+	width: 81.5% !important;
+	margin-left: -36% !important;
+	font-size: 13px !important;
+	padding: 0%!important;
+}
+.client{
+	margin-left: 5px !important;
+	width: 250px !important;
+}
+.client1{
+	color:black !important;
+	width: 473px !important;
+	margin-left: 6px !important;
+	font-size: 13px !important;
+}
+.origin{
+	margin-left: 85px!important;
+	width: 200px !important;
+}
+.origin1{
+	color:black !important;
+	width: 388px !important;
+	margin-left: 215px !important;
+	font-size: 13px !important;
+}
+.destination{
+	margin-left: 85px!important;
+	width: 250px !important;
+}
+.destination1{
+	color:black !important;
+	width: 388px !important;
+	margin-left: 215px !important;
+	font-size: 13px !important;
+}
+.s_time{
+	padding: 0%!important;
+	margin-left: 29%!important;
+}
+.s_time1{
+	color:black !important;
+	font-size: 13px !important;
+	margin-left: 30.8% !important;
+	width: 60% !important;
+}
+.e_time{
+	padding: 0%!important;
+	margin-left: -4.5%!important;
+}
+.e_time1{
+	color:black !important;
+	font-size: 13px !important;
+	margin-left: -4.4%!important;
+	width: 60%!important;
+}
+.ot{
+	padding: 0%!important;
+	margin-left: -40%!important;
+}
+.ot1{
+	color: black !important;
+	font-size: 13px !important;
+	margin-left: -40%!important;
+	width: 60%!important;
+}
+.qty{
+	padding: 0px !important;
+	width: 150px !important;
+	margin-left: 86px !important;
+	margin-top: -15px !important;
+}
+.qty1{
+	color:black !important;
+	width: 138px !important;
+	margin-left: 118px !important;
+	font-size: 13px !important;
+	margin-top: -10px !important;
+}
+.days{
+	padding: 0px !important;
+	width: 150px !important;
+	margin-left: 20px !important;
+}
+.days1{
+	color:black !important;
+	width: 138px !important;
+	margin-left: 20px !important;
+	font-size: 13px !important;
+	text-align: center !important;
+}
+
+.etd{
+	margin-left: 26px !important;
+	padding: 0px !important;
+}
+.etd1{
+	color:black !important;
+	width: 388px !important;
+	padding: 0px !important;
+	font-size: 13px !important;
+	margin-left: 25px !important;
+}
+.eta{
+	margin-left: 26px !important;
+	padding: 0px !important;
+}
+.eta1{
+	color:black !important;
+	width: 388px !important;
+	padding: 0px !important;
+	font-size: 13px !important;
+	margin-left: 26px !important;
+}
+.item{
+	padding: 0px !important;
+	margin-top: -15px !important;
+}
+.item1{
+	color:black !important;
+	width: 610px !important;
+	padding: 0px !important;
+	font-size: 13px !important;
+	margin-top: -10px !important;
+}
+
+.text{	
+	font-size: 13px !important;
+	padding: 0px !important;
+}
+.others{	
+	font-size: 13px !important;
+	margin-left: 0%!important;
+	padding: 0px !important;
+}
+.materialize-textarea{
+	padding: 0px;
+	width: 63.4% !important;
+	font-size: 13px !important;
+}
+.btn{
+	margin-top: -40px !important;
+	margin-left: 127px !important;
+}
+.page-header{
+	color: #1684ca;
+}
+.title{
+	font-weight: bold;
+}
+.disclaimer{
+	margin-left: 140px !important;
+	margin-top: -30px !important;
+	font-size: 11px !important;
+	color: rgb(56,159,77)!important;
+}
+.amount{
+	padding: 0px !important;
+	width: 150px !important;
+	margin-left: 43px !important;
+}
+.amount1{
+	color:black !important;
+	width: 150px !important;
+	margin-left: 43px !important;
+	margin-bottom: -10px !important; 
+	font-size: 13px !important;
+	margin-top: 5px !important;
+}
+.text1{
+	margin-left: -12px !important;
+}
+.ta1{
+	margin-left: 116px !important;
+	width: 772px !important;
+}
+.button{
+	margin-left: 100px !important;
+}
+.note{
+	margin-left: 116px !important;
+}
+.nav{
+	margin-left: 210px !important;
+}
+.note_air{
+	margin-left: 222px !important;
+}
+.purpose{
+	margin-left: 100px !important;
+}
+.leave{
+	margin-left: -24px !important;
+}
+.undertime{
+	margin-left: 0px !important;
+}
+.radio, .check{
+	margin-left: 20px!important;
+	font-size:12px!important;
+	padding-left: 25px !important;
+	margin-right: 9px !important;
+}
+.checkbox{
+	font-size:12px!important;
+	margin-top: 0px !important;
+	margin-left: 15px !important;
+	padding-left: 29px !important;
+}
+.datepicker{
+	width:1000px !important;
+	font-size: 13px !important;
+}

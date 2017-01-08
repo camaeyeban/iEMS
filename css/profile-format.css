@@ -1,0 +1,60 @@
+nav{
+	margin: 40px 20px 10px 50px;
+}
+
+.navigator{
+	width: 100%;
+}
+
+.main{
+	width: 200px;
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.edit-profile{
+	margin: 10px 0px 20px 0px;
+	width: 200px;
+}
+
+.photo{
+	border: 2px solid black;
+}
+
+nav.left{
+	float: left;
+	clear: left;
+}
+
+section.right{
+	float: right;
+	clear: right;
+	margin-right: 10px;
+	width: 70%;
+}
+
+img.photo{
+	width: 170px;
+	height: 170px;
+	margin: 0px 50px 0px 15px;
+}
+
+.tag{
+	width: 200px;
+	font-weight: bold;
+	//border-right: 1px solid black;
+	padding: 10px;
+}
+
+.val{
+	width: 200px;
+	padding: 10px;
+}
+
+.details{
+	//border: 1px solid black;
+}
+
+table.details{
+	margin-left: 60px;
+}

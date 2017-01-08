@@ -1,0 +1,73 @@
+/**/
+/*DEFAULT VALUES*/
+
+/*
+#container{
+	background-image: url(icons/christmaslogin.png); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: auto;
+}
+*/
+
+#container{
+	background-image: url(icons/bg.png);
+	margin-top: 80px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: auto;
+}
+
+body{
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+.err{
+	color: #7E2217;
+	font-weight:bold;
+	font-size: 11px;
+}	
+	#forgot a:link{color: white;	}
+	#forgot a:active{color: white;	}
+	#forgot a:visited{color: white;	}
+	#forgot a:hover{color: white;	}
+
+	#login{
+		height: 500px;	
+		width: 500px;
+		margin: 0 auto 0 auto;
+	}
+	
+	.login{
+		background-image: url(icons/login3.png);
+		display: inline-block;
+		text-indent: -3000px;
+		border: none;
+		width: 64px;
+		height: 24px;
+		cursor: pointer;
+	}
+	
+	.design{
+		font-size: 12px;
+		height: 24px;
+		border-radius: 4px;
+		font-family: tahoma;
+		padding-left: 3px;
+	}
+	
+	#table{
+		position:relative;
+		top: 222px;
+		left: 90px;
+		font-size: 11px;
+		font-family: tahoma;
+	}
+	
+	span{
+		color: white;
+		font-size: 14px;
+		font-family: tahoma;
+		font-weight: bold;
+	}

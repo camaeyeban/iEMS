@@ -1,0 +1,152 @@
+/* Don't let the lead text change font-size. */
+.lead {
+  font-size: 16px;
+}
+
+#box{
+  color: red;
+}
+
+
+.row{
+  margin-left: 15.5%;
+  margin-top: 2%;
+  border-color: red;
+}
+
+
+
+h2{
+  color: black;
+  font-weight: bolder !important;
+  text-align: center;
+}
+
+p{
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: justify;
+
+}
+
+
+
+.logo img{
+  margin-top: 7%;
+  margin-left: 14%;
+  height: 75px;
+  width: 100px;
+}
+
+.logo_text{
+  margin-left: 22%;
+  margin-top: -4%;
+  font-size: 23px;
+  font-weight: 600;
+  color: black;
+}
+
+.logo_text span{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.navbar{
+  background-color: rgb(51,122,183);
+  position: fixed !important;
+  
+
+}
+
+
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+  visibility: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+
+/* Copy-pasted from forms.less since we mixin the .form-inline styles. */
+.navbar-form{
+  margin-left: 50%;
+  margin-top: 2%;
+}
+.navbar-form .form-group {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  margin-top:-3%;
+
+}
+
+.navbar-form .form-control {
+  display: inline-block;
+  width: auto;
+  margin-top: 2%;
+  height: 43%;
+  
+}
+
+.banner {
+  display: block;
+  margin-left: 15.5%;
+  margin-top: 2%;
+ }
+
+ .banner img{
+  border-radius: 10px;
+ }
+
+
+.jumbotron{
+  background-color: rgb(65, 108, 143);
+  color: white; 
+  width: 40%;
+  margin-left: 28%;
+  margin-top: 12%;
+  border-radius: 9px;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
+.formPW{
+  margin-left: 5%;
+}
+
+.large{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.back{
+  margin-left: 70%;
+  margin-top: 20%;
+}
+
+.btn{
+  font-weight: bold;
+ 
+}
+
+.messg{
+  font-weight: bold;
+  color: white;
+}

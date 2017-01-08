@@ -1,0 +1,70 @@
+.right-form{
+	float: right;
+	width: 79%;
+	border: 3px solid rgb(56,159,77);
+	border-radius: 10px;
+	padding: 10px 30px 2px 30px;
+	margin-top: -12px;
+	position: fixed;
+	right: 10px;
+	left: 275px;
+	overflow-y: auto;
+	padding-bottom: -50px !important;
+	height: 85%;
+	max-height: 600px;
+}
+
+#container{
+	position: relative;
+	margin: 10 auto;
+}
+
+.footer{
+	position: fixed;
+	bottom: 10px;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(56,159,77);
+	padding-bottom: 20px;
+}
+
+.right-label {
+	font-size: 15px !important;
+}
+
+.right-input{
+	font-size: 12px !important;
+	color: black !important;
+}
+
+.note-label{
+	font-weight: bold;
+}
+
+.note{
+	color: rgb(56,159,77);
+	font-size: 12px;
+	text-align: right;
+}
+
+.req{
+	color: red;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.form-bottom{
+    float: right;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+.form-bottom-button{
+    float: right;
+	margin-bottom: -20px;
+}

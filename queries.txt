@@ -1,0 +1,21 @@
+update ems_employee s
+	set s.Biometrics_ID = (
+		select e.Biometrics_ID
+			from ems_employee_prev e
+				where s.emp_num = e.emp_num
+		   		)
+	set s.Falco_ID = (
+		select e.Falco_ID
+			from ems_employee_prev e
+				where s.emp_num = e.emp_num
+		   		)
+	set s.time_in = (
+		select e.time_in
+			from ems_employee_prev e
+				where s.emp_num = e.emp_num
+		   		)
+	set s.time_out = (
+		select e.time_out
+			from ems_employee_prev e
+				where s.emp_num = e.emp_num
+		   		)

@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="dist/bootstrap-clockpicker.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/github.min.css">
+<style type="text/css">
+.input-group {
+	width: 110px;
+	margin-bottom: 10px;
+}
+.pull-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+	<div class="form-group">
+		<div class="clearfix">
+			<div class="input-group clockpicker-with-callbacks">
+				<input type="text" class="form-control" value="10:10">
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker-with-callbacks').clockpicker({
+		donetext: 'Done',
+		init: function() { 
+			console.log("colorpicker initiated");
+		},
+		beforeShow: function() {
+			console.log("before show");
+		},
+		afterShow: function() {
+			console.log("after show");
+		},
+		beforeHide: function() {
+			console.log("before hide");
+		},
+		afterHide: function() {
+			console.log("after hide");
+		},
+		beforeHourSelect: function() {
+			console.log("before hour selected");
+		},
+		afterHourSelect: function() {
+			console.log("after hour selected");
+		},
+		beforeDone: function() {
+			console.log("before done");
+		},
+		afterDone: function() {
+			console.log("after done");
+		}
+	})
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+
+// Manually toggle to the minutes view
+$('#check-minutes').click(function(e){
+	// Have to stop propagation here
+	e.stopPropagation();
+	input.clockpicker('show')
+			.clockpicker('toggleView', 'minutes');
+});
+if (/mobile/i.test(navigator.userAgent)) {
+	$('input').prop('readOnly', true);
+}
+</script>
+<script type="text/javascript" src="assets/js/highlight.min.js"></script>
+<script type="text/javascript">
+hljs.configure({tabReplace: '    '});
+hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

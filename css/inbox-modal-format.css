@@ -1,0 +1,10 @@
+.modal-title{
+	font-weight: bold;
+	font-size: 20px;
+}
+.modal-header{
+	text-align: center !important;
+}
+.view-details{
+	cursor: pointer
+}

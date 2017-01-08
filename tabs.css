@@ -1,0 +1,87 @@
+
+/* root element for tabs  */
+.tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;
+	height:30px;	
+	width:380px;
+}
+
+/* single tab */
+.tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+	border-left: 1px solid #fff;
+}
+
+/* link inside the tab. uses a background image */
+.tabs a { 
+	border-top-right-radius: 13px;
+	border-top-left-radius: 13px;
+	background-color: #8abcff;
+	padding: 6px 15px 2px 15px;
+	color: white;
+	font: 20px tahoma;
+	line-height:30px;
+	text-align:center;	
+	text-decoration:none;
+	margin:0px;	
+	position:relative;
+	top:1px;
+	left:-1px;
+}
+
+.tabs a:active {
+	outline:none;		
+	border: 1px solid #999;
+}
+
+/* when mouse enters the tab move the background image */
+.tabs a:hover {
+/* 	background-position: -652px -31px;	 */
+	color:white;	
+	background-color: #6090d0;
+}
+
+/* active tab uses a class name "current". it's highlight is also done by moving the background image. */
+.tabs .current, .tabs .current:hover, .tabs li.current a {
+	background-position: -652px -62px;		
+	cursor:default !important; 
+	color:white !important;
+	background-color: #6090d0;
+	border: 1px solid #6090d0;
+}
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+.tabs .w1 			{ background-position: -519px 0; width:134px; }
+.tabs .w1:hover 	{ background-position: -519px -31px; }
+.tabs .w1.current { background-position: -519px -62px; }
+
+/* width 2 */
+.tabs .w2 			{ background-position: -366px -0px; width:154px; }
+.tabs .w2:hover 	{ background-position: -366px -31px; }
+.tabs .w2.current { background-position: -366px -62px; }
+
+
+/* width 3 */
+.tabs .w3 			{ background-position: -193px -0px; width:174px; }
+.tabs .w3:hover 	{ background-position: -193px -31px; }
+.tabs .w3.current { background-position: -193px -62px; }
+
+/* width 4 */
+.tabs .w4 			{ background-position: -0px -0px; width:194px; }
+.tabs .w4:hover 	{ background-position: -0px -31px; }
+.tabs .w4.current { background-position: -0px -62px; }
+
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;		
+}

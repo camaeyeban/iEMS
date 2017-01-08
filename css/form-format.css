@@ -1,0 +1,15 @@
+.job-title-panel{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 5%
+}
+
+.form-title{
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+.form-panel{
+	margin-top: 10%;
+}

@@ -1,0 +1,75 @@
+			***********************************************
+			***                                         ***
+			***          MySQL_DB_Connect               ***
+			***             Version 1.0                 ***
+			***                                         ***
+			***          Albert van Dam                 ***
+			***          Email: rhodevos@net4u.co.za    ***
+			***                                         ***
+			***********************************************
+			***                                         ***
+			***                   README                ***
+			***                                         ***
+			***********************************************
+
+MySQL_DB_Connect is a database connection handler making use of PHP. It shouldn't be too hard to be 
+able to work on PostgreSQL, MSSql, Oracle, etc. If you require this please change the 
+mysql_db_connect.inc.php file to suit your needs.
+
+Please make sure you have the following files:
+	* mysql_db_connect.cfg.php       : Database settings
+	* mysql_db_connect.Functions.txt : Summary of functions
+	* mysql_db_connect.inc.php       : Database handler
+	* mysql_db_connect.Readme.txt    : This file
+	
+To get it to work, edit the mysql_db_connect.cfg.php file as follows:
+
+	$host        :  The address where your server is located
+	$db          :  The database you want to connect to
+	$user        :  The username required to login to the server
+	$pwd         :  The password for the user specified above.
+	$keeplog     :  Whether a log of all queries should be kept
+	$logpath     :  Path where log should be kept
+	$fullErr     :  How you want errors to be displayed
+	$rollBackSup :  If your database has transactional support (InnoDB)
+
+In every PHP script you will be using MySQL_DB_Connect add the following code:
+
+		require("mysql_db_connect.inc.php");
+		$databaseLinkVariable = new mysql_db_connect();
+		
+To perform a query call:
+
+		$databaseLinkVariable->db_qry($query);
+		
+To get the number of rows retrieved in the query call:
+
+		$numberOfRows = $databaseLinkVariable->row_count();
+		
+To retrieve a row from the result set call:
+	
+		$oneRowFromResult = $databaseLinkVariable->get_data();
+		
+	The result will be given in a array with indexes using the field names and indexes starting at 0 and ending at the number of fields 
+	minus one. If you retrieve 9 fields with values F1, F2, F3, F4, F5, F6, F7, F8, F9 the array would 
+	look something like this:
+
+$oneRowFromResult:
++-------+-------+-------+-------+-------+-------+-------+-------+-------+
+|  [0]  |  [1]  |  [2]  |  [3]  |  [4]  |  [5]  |  [6]  |  [7]  |  [8]  |
++-------+-------+-------+-------+-------+-------+-------+-------+-------+
+|  F1   |  F2   |  F3   |  F4   |  F5   |  F6   |  F7   |  F8   |  F9   |
++-------+-------+-------+-------+-------+-------+-------+-------+-------+
+		
+To retrieve the names of the fields in the result set call:
+
+		$fieldNames = $databaseLinkVariable->get_fields();
+		
+	The result will be given in an array as above
+
+Check the summary of functions for more functionality, or bug me when neccesary at the above email 
+address. 
+
+If you make changes, please send me a copy.
+
+// !!!! SOUTH AFRICA ROCKS !!!! \\

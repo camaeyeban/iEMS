@@ -1,0 +1,35 @@
+			***********************************************
+			***                                         ***
+			***          MySQL_DB                       ***
+			***             Version 1.0                 ***
+			***                                         ***
+			***          Albert van Dam                 ***
+			***          Email: rhodevos@net4u.co.za    ***
+			***                                         ***
+			***********************************************
+			***                                         ***
+			***           SUMMARY OF FUNCTIONS          ***
+			***                                         ***
+			***********************************************
+
+function mysql_db()
+~~~~~~~~~~~~~~~~~~~
+Constructor. Creates a link to a database with parameters as set in mysql_db.cfg.php
+
+function db_qry($qry)
+~~~~~~~~~~~~~~~~~~~~~
+Performs a query on the database. Result is store inside class.
+
+function get_data()
+~~~~~~~~~~~~~~~~~~~
+Returns a row at a time from the result obtained by db_qry(). Starts at the first item and moves 
+sequentially to the last one. No support to get the n'th row. Data is returned in an array indexed by number and field name
+
+function row_count()
+~~~~~~~~~~~~~~~~~~~~
+Number of rows in result set.
+
+function get_fields();
+~~~~~~~~~~~~~~~~~~~~~~
+Returns the field names in the result obtained by db_qry() using an array. The first field's name
+will be in the first index (ie. [0]) of the array.

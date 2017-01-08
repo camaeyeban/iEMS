@@ -1,0 +1,27 @@
+.modal-header{
+	font-size: 30px;
+	text-align: center;
+}
+
+.lbl{
+	font-weight: bold;
+}
+
+.modal-td{
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+}
+
+.add-modal{
+	border: 0px;
+	width: 400px;
+}
+
+.modal-content{
+	width: 450px;
+	height: 350px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20%;
+}

@@ -1,0 +1,127 @@
+iRipple Employee Management System (iEMS)
+----------------------------------------------------------------------------------
+
+'/JD-2015/01/05
+	Modified the following:
+	csslogin.css
+	login.php
+	menu.php
+	- Revert Christmas Lay-out
+
+'/JD-2014/09/25
+	Affected objects:
+	emp_info.php
+	view_leave_undr.php
+	view_ot_accomplishment.php
+	view_offset_request.php
+	view_ob_request.php
+	view_requisition.php
+	view_airticket_request.php
+
+	- Added condition e.code != 'EST004'. Do not show resigned employee on manager's view
+	
+
+
+'/JD-2014/04/10
+	- Fixed issue where managers can't see their leave credit benefits	
+
+'/JD-2014/03/18
+	- Fixed issue where in manager can't see certain applications made by employees under them
+	- Fixed inbox of managers,executive and admin to display the correct count of pending applications
+
+'/JD-214/03/05 -
+	- Revert back the action of EIM to also show the name of the manager itself not only the employees under him/her. (emp_info.php)
+	- Revert back leave_undr_summary.php to allow employee to cancel their approved leave
+
+'/JD-2014/03/03 -
+	- Fixed benefits display. When Sales admin applies for an emergency leave for a manager, value in leave benefits for that manager becomes negative.
+
+'/JD-2014/02/22 - 
+	- Modified query on comp_leave_cutoff.php to automatically add 7.5 credits to table ems_benefits for each employee
+	- Fixed negative value on no. of days field on leave summary
+	- Modified status flow: Pending --> Approved --> Booked
+
+JD-2014 --> add tasks here from last year
+
+'/TL-2012/04/30 - 
+Modified functions.php
+	- Added code to send email to OIC of managers if there is an OIC assigned.
+
+'/TL-2012/04/13 - 
+Make OIC feature work.
+Changed assigned OIC from department name to manager's name.
+
+'/TL-2012/04/03
+view_edit_leave_summary.php
+	- Added cutoff in query.
+
+'/TL-2012/04/02
+comp_leave_cutoff.php
+	- Added file for setting the leave cut-off.
+leave_undertime.php
+	- Added validation for setting leave within different cut-offs.
+menu.php
+	-Added link to "Leave cut-off" page.
+
+'/TL-2012/01/25
+comp_info.php
+	- Added Presently Employed total. Changed Total to Total No. of Employees.
+
+'/TL-2012/01/20
+view_airticket_request.php
+view_leave_undr.php
+view_offset_request.php
+view_ot_accomplishment.php
+view_requisition.php
+view_reservation.php
+	- Changed $a_data[0] to $_SESSION['rights'].
+
+'/TL-2012/01/05
+view_edit_leave_summary.php
+	- Corrected query to include only the leaves applied with "Approved" status.
+
+'/TL-2012/01/04
+acc_details.php
+	- Fixed display of Time-in and Time-out.
+	- Added format for No. of Hours
+accomplishment.php
+	- Added revisions from R. Ladiana
+	- Added format for No. of Hours
+view_edit_ob.php
+	- Added code to clear variable and prevent accumulation of Purpose (Others).
+
+attachments.php
+business_units.php
+comp_info.php
+comp_structure.php
+cssall.css
+emp_info.php
+func_inbox.php
+photo.php
+view_airticket_request.php
+view_edit_benefits.php
+view_edit_contacts.php
+view_edit_dependents.php
+view_edit_emergency.php
+view_edit_job.php
+view_edit_personal.php
+view_leave_undr.php
+view_ob_request.php
+view_offset_request.php
+view_ot_accomplishment.php
+view_requisition.php
+view_reservation.php
+	- Added revisions from R. Ladiana
+	
+'/TL-2012/01/20
+view_airticket_request.php
+view_leave_undr.php
+view_offset_request.php
+view_ot_accomplishment.php
+view_requisition.php
+view_reservation.php
+	- Changed $a_data[0] to $_SESSION['rights'].
+	
+'/TL-2012/01/25
+comp_info.php
+	- Added Presently Employed total.

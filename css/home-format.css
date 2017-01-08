@@ -1,0 +1,126 @@
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 992px) {
+	.featurette-heading {
+		margin-top: 120px;
+	}
+}
+
+.logo-venue{
+	margin-top: 5px;
+	margin-right: 20px;
+	height: 40px;
+}
+
+.table-column-names{
+	text-align: center;
+}
+
+.add{
+	float: right;
+	margin: 10px 12px 20px 0px;
+}
+
+.approve, .confirm{
+	margin: 10px 8px 0px 0px;
+}
+
+.cancel, .rebook, .deny, .export, .close, .update, .delete, .save, .reset, .done, .delete_job_title, .delete_job_level, .delete_emp_status{
+	margin: 10px 15px 0px 0px;
+}
+
+.export{
+	margin-left: -7px !important;
+}
+
+.table-buttons{
+	margin: 0px 0px 10px 0px;
+	clear: both;
+}
+
+.not-tabbed-upper-buttons{
+	margin-top: -50px;
+}
+
+.apply{
+	float: right;
+	margin: -10px 5px 20px 0px
+}
+
+.summary-title{
+	margin: 0px 15px 10px 15px;
+}
+
+#container{
+	margin: 10px 10px 30px 10px;
+}
+
+.upper-link{
+	float: right;
+	padding-right: 1%;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.index{
+	padding: 20px;
+	background-color: white;
+	border-right: 1px solid #ebdde2;
+	border-left: 1px solid #ebdde2;
+	border-bottom: 1px solid #ebdde2;
+}
+
+td{
+	vertical-align: middle !important;
+}
+
+.panel-body{
+	background-color: white !important;
+	border-right: 1px solid #ebdde2;
+	border-left: 1px solid #ebdde2;
+	border-bottom: 1px solid #ebdde2;
+	clear: both !important;
+}
+
+.top-bordered{
+	border-top: 1px solid #ebdde2;
+}
+
+.footer{
+	clear: both;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.equip-button{
+	margin: 15px;
+}
+
+.smaller-link-margin{
+	margin: -35px 0px 0px 0px;
+}
+
+.zero-bottom-margin{
+	margin-bottom: 0px;
+}

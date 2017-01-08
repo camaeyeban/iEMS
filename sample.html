@@ -1,0 +1,45 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<link rel='stylesheet' href='cssall.css' type='text/css' />
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+$("#username").blur(function()
+{
+ //remove all the class add the messagebox classes and start fading
+ $("#msgbox").removeClass().addClass('messagebox').text('Checking...').fadeIn("slow");
+ //check the username exists or not from ajax
+ $.post("check_user.php",{ username:$(this).val() } ,function(data)
+ {
+  if(data=='yes') //if username not avaiable
+  {
+   $("#msgbox").fadeTo(200,0.1,function() //start fading the messagebox
+   {
+    //add message and change the class of the box and start fading
+    $(this).html('This User name Already exists').addClass('messageboxerror').fadeTo(900,1);
+   });
+  }
+  else
+  {
+   $("#msgbox").fadeTo(200,0.1,function()  //start fading the messagebox
+   {
+    //add message and change the class of the box and start fading
+    $(this).html('Username available to register').addClass('messageboxok').fadeTo(900,1);
+   });
+  }
+ });
+});
+});
+	</script>
+</head>
+
+<form action="sample.html" method="POST">
+<div >
+ User Name : <input name="username" type="text" id="username" value="" maxlength="15" />
+ <span id="msgbox" style="display:none"></span>
+</div>
+</form>
+
+</html>
